@@ -1,5 +1,5 @@
 body{
-    width: 1200px;
+    width: 1080px;
     height: auto;
     margin: 0 auto;
     alignment: center;
@@ -7,7 +7,7 @@ body{
 }
 
 .divModel{
-    width: 1200px;
+    width: 1080px;
     height: auto;
     margin: 0 auto;
     text-align: left;
@@ -26,24 +26,36 @@ a{
 
 button{
     background-image: url("../images/button1.jpg");
+    background-size: 100% 100%;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     color: white;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 18px;
+    /*font-weight: bold;*/
     border-radius: 25px;
 }
+
+ul{
+    color:white;
+    font-size: 22px;
+}
+
+li{
+    margin: 0  auto;
+    list-style: none;
+}
 .divbutton{
-    width: 1200px;
+    width: 1080px;
     height: auto;
     margin: 0 auto;
     border: white solid 5px;
     border-radius: 10px;
+    alignment: center;
     text-align: center;
 }
 
 .top{
-    width: 1200px;
+    width: 1080px;
     height: 90px;
     margin: 0 auto;
     alignment: center;
@@ -91,7 +103,6 @@ a:link{                        /*鼠标未接触*/
 
 a:hover{                      /*鼠标在接触*/
     color: white;
-    background: red;
 }
 
 
