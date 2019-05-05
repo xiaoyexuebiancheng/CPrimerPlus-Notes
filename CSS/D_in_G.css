@@ -1,0 +1,75 @@
+body{
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    alignment: center;
+    text-align: center;
+    background: url("../images/grain.jpg");
+}
+
+
+p{
+    font-size: 20px;
+    color:white;
+    text-indent:2em
+}
+
+a{
+    margin: 30px 30px 30px 30px;
+}
+
+a:link{                        /*鼠标未接触*/
+    text-decoration: none;
+}
+
+a:hover{                      /*鼠标在接触*/
+    color: white;
+}
+
+a:active{                    /*鼠标按下*/
+    color: black;
+    background: white;
+}
+
+a:visited{
+
+}
+
+button{
+    background-image: url("../images/button1.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    border-radius: 25px;
+}
+
+ul{
+    color:white;
+    font-size: 22px;
+}
+
+li{
+    margin: 0  auto;
+    list-style: none;
+}
+
+.divModel{
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.divbutton{
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    border: white solid 5px;
+    border-radius: 10px;
+    alignment: center;
+    text-align: center;
+}
+
