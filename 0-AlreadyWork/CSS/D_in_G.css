@@ -4,7 +4,7 @@ body{
     margin: 0 auto;
     alignment: center;
     text-align: center;
-    background: url("../images/grain.jpg");
+    background: url("../../images/grain.jpg");
 }
 
 
@@ -36,7 +36,7 @@ a:visited{
 }
 
 button{
-    background-image: url("../images/button1.jpg");
+    background-image: url("../../images/button1.jpg");
     background-size: 100% 100%;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
