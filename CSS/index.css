@@ -4,14 +4,9 @@ body{
     margin: 0 auto;
     alignment: center;
     text-align: center;
+    background: url("../images/grain.jpg");
 }
 
-.divModel{
-    width: 1080px;
-    height: auto;
-    margin: 0 auto;
-    text-align: left;
-}
 
 p{
     font-size: 20px;
@@ -20,8 +15,24 @@ p{
 }
 
 a{
-
     margin: 30px 30px 30px 30px;
+}
+
+a:link{                        /*鼠标未接触*/
+    text-decoration: none;
+}
+
+a:hover{                      /*鼠标在接触*/
+    color: white;
+}
+
+a:active{                    /*鼠标按下*/
+    color: black;
+    background: white;
+}
+
+a:visited{
+
 }
 
 button{
@@ -44,6 +55,14 @@ li{
     margin: 0  auto;
     list-style: none;
 }
+
+.divModel{
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .divbutton{
     width: 1080px;
     height: auto;
@@ -54,64 +73,3 @@ li{
     text-align: center;
 }
 
-.top{
-    width: 1080px;
-    height: 90px;
-    margin: 0 auto;
-    alignment: center;
-    text-align: center;
-}
-
-
-.banner{
-    background: lightgreen;
-    height: 57px;
-}
-
-.banner .mystyle{
-    align-content: center;
-    margin: 0 auto;
-}
-
-.banner .fisrt{
-    width: 1020px;
-    float: left;
-}
-
-.banner .myinput{
-    height: 34px;
-    margin-top: 8px;
-}
-
-.mycomment{
-    height: 20px;
-    padding: 10px;
-    border: 1px solid;
-}
-
-.mycomment span{
-    width: auto;
-    padding-right: 80px;
-    text-align: center;
-}
-
-a:link{                        /*鼠标未接触*/
-    color: deeppink;
-    text-decoration: none;
-}
-
-
-a:hover{                      /*鼠标在接触*/
-    color: white;
-}
-
-
-a:active{                    /*鼠标按下*/
-    color: black;
-    background: white;
-}
-
-
-a:visited{
-
-}
