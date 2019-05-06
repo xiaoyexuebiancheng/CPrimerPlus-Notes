@@ -7,6 +7,10 @@ body{
     background: url("../../images/grain.jpg");
 }
 
+div{
+    margin-top: 20px;
+}
+
 
 p{
     font-size: 20px;
