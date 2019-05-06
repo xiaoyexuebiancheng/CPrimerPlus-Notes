@@ -8,7 +8,7 @@ body{
 }
 
 div{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -77,3 +77,12 @@ li{
     text-align: center;
 }
 
+.divPictureAndDetail{
+    width: 1070px;
+    height: auto;
+    margin: 8px auto;
+    border: white solid 1px;
+    border-radius: 10px;
+    alignment: center;
+    text-align: center;
+}
